@@ -1,0 +1,42 @@
+name: Screen
+description: A screen or state to design and/or build
+labels: ["screen"]
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      options:
+        - Auth
+        - Onboarding & KYC
+        - Dashboard
+        - Accounts
+        - Deposit
+        - Withdrawal
+        - Transfer
+        - History
+        - Settings
+        - Affiliate
+        - Notifications
+        - Support
+        - System states
+    validations:
+      required: true
+  - type: input
+    id: figma
+    attributes:
+      label: Figma frame
+      description: Link to the frame (Module / Screen / State)
+  - type: textarea
+    id: states
+    attributes:
+      label: States
+      description: Default, loading, empty, error, success…
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: Figma (mobile)
+        - label: Figma (tablet / desktop)
+        - label: Code
