@@ -2,11 +2,7 @@
 
 Read this first. It carries the full context from the planning chat (claude.ai, Oct 20–21, 2026).
 
-## Communication
-
-- Talk to the owner (Alex) **in Russian**. Code, UI copy, commits and repo docs — in English.
-- Alex is a UX/UI designer with 20+ years of experience. Skip design basics; be direct, argue trade-offs.
-- Ask questions as multiple-choice (AskUserQuestion) with an option to type a custom answer.
+Communication rules (Russian with the owner, English in code and docs, multiple-choice questions) live in `~/.claude/CLAUDE.md`.
 
 ## What this is
 
